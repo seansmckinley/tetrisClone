@@ -110,7 +110,7 @@ const NSInteger widthInLetters =7;
 }
 
 -(void)iClick{
-    tagOut = iBlock;
+    [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
@@ -129,6 +129,7 @@ const NSInteger widthInLetters =7;
     
 }
 -(void)jClick{
+    [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
@@ -146,6 +147,8 @@ const NSInteger widthInLetters =7;
     
 }
 -(void)lClick{
+    [self.i removeFromSuperview];
+    [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
@@ -162,6 +165,7 @@ const NSInteger widthInLetters =7;
     [self.view addSubview:self.blockView];
 }
 -(void)oClick{
+    [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
@@ -177,7 +181,9 @@ const NSInteger widthInLetters =7;
     [self.blockView addSubview:self.i];
     [self.view addSubview:self.blockView];
 }
+
 -(void)sClick{
+        [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
@@ -195,6 +201,7 @@ const NSInteger widthInLetters =7;
 }
 -(void)tClick
 {
+        [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
@@ -212,6 +219,7 @@ const NSInteger widthInLetters =7;
 }
 
 -(void)zClick{
+        [self.i removeFromSuperview];
     NSInteger width = blockWidth, height = width;
     CGRect aF = [[UIScreen mainScreen] applicationFrame];    //appFrame
     NSInteger gVW = (aF.size.width - 2 *margins);     //gameViewWidth
