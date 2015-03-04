@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../460/lex.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../460/mckinleyP1.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../460/Makefile">
+   </FileRef>
+   <FileRef
+      location = "group:../../460/SetLimits.cpp">
+   </FileRef>
+   <FileRef
+      location = "group:../../460/SetLimits.h">
+   </FileRef>
+   <FileRef
+      location = "group:../../460/test1.in">
+   </FileRef>
+   <FileRef
+      location = "group:../../460/test2.in">
+   </FileRef>
+</Workspace>
